@@ -1,4 +1,4 @@
-package calc
+package calc_test
 
 import (
 	"assignment1/calc"
