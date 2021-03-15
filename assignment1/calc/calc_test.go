@@ -1,7 +1,7 @@
-package assignment1_test
+package calc
 
 import (
-	"grader/assignment1"
+	"assignment1/calc"
 	"testing"
 )
 
