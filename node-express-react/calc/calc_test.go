@@ -13,3 +13,12 @@ func TestAdd(t *testing.T) {
 		t.Errorf("actual=%d, expected=%d", actual, expected)
 	}
 }
+
+func TestAdd2(t *testing.T) {
+	expected := 9
+	actual := calc.Add(4, 5)
+
+	if expected != actual {
+		t.Errorf("actual=%d, expected=%d", actual, expected)
+	}
+}
