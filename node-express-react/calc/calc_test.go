@@ -16,7 +16,7 @@ func TestAdd(t *testing.T) {
 
 func TestAdd2(t *testing.T) {
 	expected := 9
-	actual := calc.Add(4, 5)
+	actual := calc.Add(4, 4)
 
 	if expected != actual {
 		t.Errorf("actual=%d, expected=%d", actual, expected)
