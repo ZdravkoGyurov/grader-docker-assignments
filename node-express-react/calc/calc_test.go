@@ -1,7 +1,7 @@
 package calc_test
 
 import (
-	"assignment2/calc"
+	"node-express-react/calc"
 	"testing"
 )
 
